@@ -1,26 +1,36 @@
 import express from "express";
 import cors from "cors";
-
-import contentRoutes from "./routes/content.routes.js";
-import userRoutes from "./routes/user.routes.js";
-import orderRoutes from "./routes/order.routes.js";
-import productRoutes from "./routes/product.routes.js";
+import fs from "fs";
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 
+const DB_PATH = "./db.json";
+
 /*
 |--------------------------------------------------------------------------
-| API Routes
+| Read DB
 |--------------------------------------------------------------------------
 */
 
-app.use("/api/content", contentRoutes);
-app.use("/api/users", userRoutes);
-app.use("/api/orders", orderRoutes);
-app.use("/api/products", productRoutes);
+const getDB = () => {
+  const data = fs.readFileSync(DB_PATH, "utf-8");
+  return JSON.parse(data);
+};
+
+/*
+|--------------------------------------------------------------------------
+| Auth Data
+|--------------------------------------------------------------------------
+*/
+
+app.get("/api/auth", (req, res) => {
+  const db = getDB();
+
+  res.status(200).json(db.auth);
+});
 
 /*
 |--------------------------------------------------------------------------
@@ -31,7 +41,7 @@ app.use("/api/products", productRoutes);
 app.get("/api/health", (req, res) => {
   res.status(200).json({
     success: true,
-    message: "API Running Successfully",
+    message: "Server Running Successfully",
   });
 });
 
@@ -51,5 +61,5 @@ app.use((req, res) => {
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
-  console.log(`Server running on ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
