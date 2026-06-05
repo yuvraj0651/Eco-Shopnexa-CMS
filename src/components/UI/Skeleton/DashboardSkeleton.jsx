@@ -1,6 +1,5 @@
 import React from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Skeleton } from "@/components/ui/skeleton";
+import { Skeleton, Card, CardContent } from "@/components/UI";
 
 const DashboardSkeleton = () => {
   return (

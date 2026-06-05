@@ -5,13 +5,12 @@ import {
   DialogTitle,
   DialogDescription,
   DialogFooter,
-} from "@/components/ui/dialog";
-
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Textarea } from "@/components/ui/textarea";
-import { ScrollArea } from "@/components/ui/scroll-area";
+  Button,
+  Input,
+  Label,
+  Textarea,
+  ScrollArea,
+} from "@/components/UI";
 
 import { Save, Globe, FileText } from "lucide-react";
 import { useEffect, useState } from "react";
@@ -59,7 +58,7 @@ const UpdateContentModal = ({ open, setOpen, editData, editingId }) => {
   const queryClient = useQueryClient();
 
   const updateMutation = useMutation({
-    mutationFn: ({ id, updatedItem }) => updateContent(id, updatedItem), 
+    mutationFn: ({ id, updatedItem }) => updateContent(id, updatedItem),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["content"] });
 

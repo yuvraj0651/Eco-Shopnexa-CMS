@@ -11,38 +11,34 @@ import {
   IoWalletOutline,
   IoStarOutline,
 } from "react-icons/io5";
-
 import { motion } from "framer-motion";
-
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
-import { Button } from "@/components/ui/button";
-
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-
-import { Badge } from "@/components/ui/badge";
-
 import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+  Input,
+  Progress,
   Table,
   TableBody,
   TableCell,
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
-
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-
-import { Progress } from "@/components/ui/progress";
-
-import { Input } from "@/components/ui/input";
-
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+  Badge,
+  Button,
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/components/UI";
 
 const customerData = [
   {

@@ -7,7 +7,7 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog";
+} from "@/components/UI";
 import { useEffect, useState } from "react";
 
 const UpdateOrderModal = ({ open, setOpen, editData, editingId }) => {

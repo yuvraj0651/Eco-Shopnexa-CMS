@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { IoPersonOutline, IoCubeOutline } from "react-icons/io5";
 
-import { Button } from "@/components/ui/button";
-
 import {
   Dialog,
   DialogContent,
@@ -11,7 +9,8 @@ import {
   DialogHeader,
   DialogOverlay,
   DialogTitle,
-} from "@/components/ui/dialog";
+  Button,
+} from "@/components/UI";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { addCartData } from "@/components/services/OrdersApi";
 import { toast } from "sonner";

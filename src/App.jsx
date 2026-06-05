@@ -11,7 +11,7 @@ import Homepage from "./components/Pages/Home/Homepage";
 import ThemeProvider from "./components/context/Theme/ThemeProvider";
 import ProductListing from "./components/Pages/Product/ProductListing";
 import Orders from "./components/Pages/Orders/Orders";
-import { TooltipProvider } from "@/components/ui/tooltip";
+import { TooltipProvider } from "@/components/UI";
 import Customers from "./components/Pages/Customers/Customers";
 import RouteManagement from "./components/Pages/Route/RouteManagement";
 import PageManagement from "./components/Pages/Page/PageManagement";
