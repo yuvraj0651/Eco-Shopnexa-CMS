@@ -17,7 +17,7 @@ const initialState = {
   error: null,
 };
 
-const BASE_URL = "http://localhost:5000/auth";
+const BASE_URL = "https://eco-ecom-cms-final.onrender.com/api/auth";
 
 const getTokenData = () => {
   return Math.random().toString(36).slice(2);
