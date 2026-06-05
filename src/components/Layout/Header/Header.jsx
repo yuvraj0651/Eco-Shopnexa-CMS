@@ -5,9 +5,6 @@ import {
   IoPersonOutline,
   IoLogOutOutline,
   IoSettingsOutline,
-} from "react-icons/io5";
-import { Button } from "@/components/ui/button";
-import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuGroup,
@@ -15,7 +12,8 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+  Button,
+} from "react-icons/io5";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../../API/Auth/AuthThunk";
 import { toast } from "sonner";
