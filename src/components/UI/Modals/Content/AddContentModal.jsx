@@ -14,9 +14,8 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
+  ScrollArea
 } from "@/components/UI";
-
-import { ScrollArea } from "@/components/ui/scroll-area";
 import { Plus, ImageIcon } from "lucide-react";
 import { useState } from "react";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
