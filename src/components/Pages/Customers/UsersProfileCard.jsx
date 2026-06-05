@@ -1,7 +1,12 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
-import { Progress } from "@/components/ui/progress";
+import {
+  Card,
+  CardContent,
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+  Badge,
+  Progress,
+} from "@/components/UI";
 
 const UserProfileCard = ({ customer }) => {
   return (

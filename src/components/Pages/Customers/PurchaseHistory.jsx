@@ -1,11 +1,10 @@
-import { Badge } from "@/components/UI/badge";
-
 import {
   Card,
   CardContent,
   CardHeader,
   CardTitle,
-} from "@/components/UI/card";
+  Badge
+} from "@/components/UI";
 
 import { purchaseHistory } from "./PurchaseHistoryData";
 

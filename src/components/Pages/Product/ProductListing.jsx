@@ -13,7 +13,7 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from "@/components/ui/pagination";
+} from "@/components/UI";
 import AddProductModal from "../../UI/Modals/AddProduct/AddProductModal";
 import EditProductModal from "../../UI/Modals/EditProduct/EditProductModal";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";

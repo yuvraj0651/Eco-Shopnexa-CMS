@@ -1,14 +1,13 @@
 import React from "react";
 
-import { Card, CardContent } from "@/components/ui/card";
-
 import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@/components/ui/avatar";
-
-import { Progress } from "@/components/ui/progress";
+  Card,
+  CardContent,
+  Progress,
+} from "@/components/UI";
 
 const CustomerAnalytics = ({ customers }) => {
   return (
@@ -38,19 +37,14 @@ const CustomerAnalytics = ({ customers }) => {
 
             <div className="mt-6">
               <div className="mb-2 flex items-center justify-between text-sm">
-                <span className="text-slate-500">
-                  Engagement
-                </span>
+                <span className="text-slate-500">Engagement</span>
 
                 <span className="font-medium text-slate-900 dark:text-white">
                   {item.loyalty}%
                 </span>
               </div>
 
-              <Progress
-                value={item.loyalty}
-                className="h-2"
-              />
+              <Progress value={item.loyalty} className="h-2" />
             </div>
           </CardContent>
         </Card>

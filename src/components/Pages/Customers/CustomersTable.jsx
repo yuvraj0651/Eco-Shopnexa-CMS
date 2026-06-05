@@ -1,13 +1,33 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/UI/avatar";
-import { Badge } from "@/components/UI/badge";
-import { Button } from "@/components/UI/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/UI/card";
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/UI/dropdown-menu";
-import { Progress } from "@/components/UI/progress";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/UI/table";
+import {
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+  Badge,
+  Button,
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+  Progress,
+} from "@/components/UI";
 import React from "react";
 import { useMemo } from "react";
-import { IoBanOutline, IoCheckmarkCircleOutline, IoEllipsisVertical, IoEyeOutline } from "react-icons/io5";
+import {
+  IoBanOutline,
+  IoCheckmarkCircleOutline,
+  IoEllipsisVertical,
+  IoEyeOutline,
+} from "react-icons/io5";
 
 const CustomersTable = ({ searchTerm, customers }) => {
   const filteredCustomers = useMemo(() => {
@@ -34,7 +54,7 @@ const CustomersTable = ({ searchTerm, customers }) => {
         <div className="overflow-x-auto">
           <Table>
             <TableHeader>
-              <TableRow> 
+              <TableRow>
                 <TableHead>Customer</TableHead>
                 <TableHead>Orders</TableHead>
                 <TableHead>Total Spent</TableHead>

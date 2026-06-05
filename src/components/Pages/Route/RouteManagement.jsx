@@ -17,33 +17,28 @@ import {
   Layers3,
   GitBranch,
 } from "lucide-react";
-import { Button } from "@/components/UI/button";
-import { Input } from "@/components/UI/input";
-import { Badge } from "@/components/UI/badge";
-import { Card, CardContent } from "@/components/UI/card";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/components/UI/tooltip";
-
-import {
+  Card,
+  CardContent,
+  Badge,
+  Input,
+  Button,
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/UI/dropdown-menu";
-
-import {
   Table,
   TableBody,
   TableCell,
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/UI/table";
+} from "@/components/UI";
 import { useQuery } from "@tanstack/react-query";
 import { getRouteData } from "@/components/services/RoutesApi";
 import { useMemo, useState } from "react";
