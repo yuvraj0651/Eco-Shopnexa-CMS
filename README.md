@@ -18,7 +18,7 @@ A Modern Ecommerce Content Management System built with React, Redux Toolkit, Ta
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-View_Project-success?style=for-the-badge)](https://YOUR_NETLIFY_URL.netlify.app)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-View_Project-success?style=for-the-badge)](https://ecoshopnexa-cms.netlify.app/)
 
 [![GitHub Stars](https://img.shields.io/github/stars/YOUR_USERNAME/Eco-Ecom-CMS?style=social)](https://github.com/YOUR_USERNAME/Eco-Ecom-CMS)
 [![GitHub Forks](https://img.shields.io/github/forks/YOUR_USERNAME/Eco-Ecom-CMS?style=social)](https://github.com/YOUR_USERNAME/Eco-Ecom-CMS)
