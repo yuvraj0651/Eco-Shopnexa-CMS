@@ -1,0 +1,12 @@
+{
+  "auth": [
+    {
+      "id": "f72f",
+      "fullName": "Yuvraj Ganshi",
+      "email": "yuvrajganshi@gmail.com",
+      "password": "Aceinfo@2531",
+      "confirmPass": "Aceinfo@2531",
+      "role": "admin"
+    }
+  ]
+}
