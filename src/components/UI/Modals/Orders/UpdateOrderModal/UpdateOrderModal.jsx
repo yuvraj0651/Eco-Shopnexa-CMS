@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import {
   Dialog,
   DialogClose,
@@ -7,6 +6,7 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
+  Button
 } from "@/components/UI";
 import { useEffect, useState } from "react";
 

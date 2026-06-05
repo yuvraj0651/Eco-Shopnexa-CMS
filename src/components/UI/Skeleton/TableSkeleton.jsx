@@ -1,5 +1,5 @@
 import React from "react";
-import { Skeleton } from "@/components/ui/skeleton";
+import { Skeleton } from "@/components/UI";
 
 const TableSkeleton = ({ rows = 5, cols = 8 }) => {
   return (
