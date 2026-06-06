@@ -20,10 +20,10 @@ A Modern Ecommerce Content Management System built with React, Redux Toolkit, Ta
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-View_Project-success?style=for-the-badge)](https://ecoshopnexa-cms.netlify.app/)
 
-[![GitHub Stars](https://img.shields.io/github/stars/YOUR_USERNAME/Eco-Ecom-CMS?style=social)](https://github.com/YOUR_USERNAME/Eco-Ecom-CMS)
-[![GitHub Forks](https://img.shields.io/github/forks/YOUR_USERNAME/Eco-Ecom-CMS?style=social)](https://github.com/YOUR_USERNAME/Eco-Ecom-CMS)
-[![GitHub Repo Size](https://img.shields.io/github/repo-size/YOUR_USERNAME/Eco-Ecom-CMS)](https://github.com/YOUR_USERNAME/Eco-Ecom-CMS)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/Eco-Ecom-CMS)](https://github.com/YOUR_USERNAME/Eco-Ecom-CMS)
+[![GitHub Stars](https://img.shields.io/github/stars/YOUR_USERNAME/Eco-Ecom-CMS?style=social)](https://github.com/yuvraj0651/Eco-Shopnexa-CMS.git)
+[![GitHub Forks](https://img.shields.io/github/forks/YOUR_USERNAME/Eco-Ecom-CMS?style=social)](https://github.com/yuvraj0651/Eco-Shopnexa-CMS.git)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/YOUR_USERNAME/Eco-Ecom-CMS)](https://github.com/yuvraj0651/Eco-Shopnexa-CMS.git)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/Eco-Ecom-CMS)](https://github.com/yuvraj0651/Eco-Shopnexa-CMS.git)
 
 </div>
 
